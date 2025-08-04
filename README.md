@@ -25,11 +25,13 @@
 
 Чтобы выделить код, его надо поместить в тройные кавычки " ''' ":
 
-'''
-mkdir My_first_project  
-cd my_project  
-git init  
-'''
+```Java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
 
 Чтобы более глубоко изучить функции markdown для оформления README, ты можешь почитать [здесь](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#headers) или   
 [здесь](https://www.markdownguide.org/cheat-sheet/)
